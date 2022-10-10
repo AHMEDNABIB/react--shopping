@@ -9,6 +9,7 @@ import About from './components/About/About';
 function App() {
 	return (
 		<div>
+		
 			<Header></Header>
 			<Routes>
 				<Route path="/" element={<Shop />} />
